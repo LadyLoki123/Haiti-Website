@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Quiz</title>
+		<!-- 
+			Microsoft Word Basics Quiz page
+			Filename: quiz.html
+			
+			Author: Lauren White
+			Date: 10/12/22
+		-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<script src="modernizr.custom.40753.js"></script>
+		<link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-icon.png">
+	
+	</head>
+	<body>
+		<div class="container">
+			<p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+			<header>
+				<h1>Microsoft Word Basics</h1>
+				<div class="sun-shape"></div>
+			</header>
+				<nav class="sitenavigation">
+		<div class="navigation-menu-button">
+				<img src="images/menu.png" width="63" height="57" alt="Show navigation">
+			</div>
+				<ul>
+					<li><a href="index.html">Lesson</a></li>
+					<li><a href="review.html">Review</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+				</ul>
+			</nav>	
+		<article class="text">
+		<article id="contentstart">
+			<h2>Quiz</h2>
+		</article>
+			<form class="quiz-form">
+				<p>Write the answers in the boxes</p>
+				<fieldset class="quiz">
+				<img src="images/font-size.png" alt="button to change how big or small font is"> 
+					<label for="part1input">
+						Answer:
+						<input type="text" name="part1" id="part1input" required>
+					</label>
+					<p id="part1correct" class="check"></p>
+				<img src="images/wordArt.gif" alt="button to create words with art effects"> 
+					<label for="part2input" required>
+						Answer:
+						<input type="text" name="part2" id="part2input">
+					</label>
+					<p id="part2correct" class="check"></p>
+				<img src="images/shapes.gif" alt="button to add figures"> 
+					<label for="part3input">
+						Answer:
+						<input type="text" name="part3" id="part3input" required>
+					</label>
+					<p id="part3correct" class="check"></p>
+				<img src="images/highlight.png" alt="button to change color over text"> 
+					<label for="part4input">
+						Answer:
+						<input type="text" name="part4" id="part4input" required>
+					</label>
+					<p id="part4correct" class="check"></p>
+				<img src="images/table.png" alt="button to add charts"> 
+					<label for="part5input">
+						Answer:
+						<input type="text" name="part5" id="part5input" required>
+					</label>
+					<p id="part5correct" class="check"></p>
+				<img src="images/border.png" alt="button to add lines around text"> 
+					<label for="part6input">
+						Answer:
+						<input type="text" name="part6" id="part6input" required>
+					</label>
+					<p id="part6correct" class="check"></p>
+				</fieldset>
+			</form>
+		</article>
+		<script src="quizScript.js"></script>
+		<script src="buttonScript.js"></script>
+	</body>
+	<footer>
+		<p>Bridge to Haiti, a SUNY Broome Initiative</p>
+	</footer>
+		</div>
+</html>

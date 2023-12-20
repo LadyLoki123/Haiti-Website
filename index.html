@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Microsoft Word Basics</title>
+		<!-- 
+			Microsoft Word Basics Lesson page
+			Filename: index.html
+			
+			Author: Lauren White
+			Date: 10/12/22
+		-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<script src="modernizr.custom.40753.js"></script>
+		<link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-icon.png">
+	</head>
+	<body>
+		<div class="container">
+			<p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+			<header>
+				<h1>Microsoft Word Basics</h1>
+				<div class="sun-shape"></div>
+			</header>
+			<nav class="sitenavigation">
+			<div class="navigation-menu-button">
+				<img src="images/menu.png" width="63" height="57" alt="Show navigation">
+			</div>
+				<ul>
+					<li><a href="index.html">Lesson</a></li>
+					<li><a href="review.html">Review</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+				</ul>
+			</nav>
+		<article class="text">
+		<article id="contentstart">
+			<h2>Lesson</h2>
+		</article>
+			<p>Study the picture for each word.</p>
+			<ul class="vocab-list">
+				<li><h4>Highlight:</h4></li>
+					<figure>
+					<img src="images/highlight.png" width="100" height="95" alt="Highlight Button">
+					</figure>
+				<li><h4>Table:</h4></li>
+					<figure>
+					<img src="images/table.png" width="100" height="90" alt="Highlight Button">
+					</figure>
+				<li><h4>Border:</h4></li>
+					<figure>
+					<img src="images/border.png" width="100" height="85" alt="Text Border Button">
+					</figure>
+				<li><h4>Font Size:</h4></li>
+					<figure>
+					<img src="images/font-size.png" width="100" height="80" alt="Font Size Button">
+					</figure>
+				<li><h4>Word Art:</h4></li>
+					<figure>
+					<img src="images/wordart.gif" width="100" height="100" alt="WordArt Button">
+					</figure>
+				<li><h4>Shapes:</h4></li>
+					<figure>
+					<img src="images/shapes.gif" width="100" height="100" alt="Shapes Button">
+					</figure>
+			</ul>
+			<p>Click for video on how to use buttons</p>
+			<video src="media/demo.webm" type="video/webm" poster="images/fallback.png" controls>
+			</video>
+			<p>Click to hear the words in english.</p>
+			<audio controls>
+				<source src="media/demoaudio.m4a" width="300" height="20">
+				<track src="descriptions.vtt" kind="descriptions" srclang="en" label="English descriptions">
+				<track src="captions.vtt" kind="captions" srclang="en" label="English captions">
+				<object type="application/x-shockwave-flash" width="300" height="20">
+					<param name="movie" value="media/demoaudio.m4a">
+					<param name="base" value="media">
+					<img src="images/fallback.png" alt="Highlight, table, border, text size, word art, and shapes used on-screen.">
+				</object>
+			</audio>
+		</article>
+		<script src="script.js"></script>
+		<script src="buttonScript.js"></script>
+	</body>
+	<footer>
+		<p>Bridge to Haiti, a SUNY Broome Initiative</p>
+	</footer>
+		</div>
+</html>
